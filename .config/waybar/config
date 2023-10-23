@@ -1,0 +1,61 @@
+{
+	"height":	27,
+    "position": "top",
+	"layer":	"top",
+    "modules-left": ["hyprland/workspaces"],
+    "modules-right": ["cpu","memory","network", "pulseaudio", "battery", "clock", "tray"],
+
+    "hyprland/workspaces": {
+      //"format": "{icon}",
+      "on-click": "activate",
+      "sort-by-numbers": false,
+      "format-icons": {
+          "default": "󰝦",
+          "active": "󰝥",
+          "urgent": "󰀨"
+      }
+    },
+
+        "cpu": {
+	    "format": "<span size='11000' foreground='#88C0D0'> </span>{usage}% {avg_frequency}GHz"
+        },
+	"memory": {
+	       "format": "<span size='11000' foreground='#D08770'> </span>{used:0.1f}G/{total:0.1f}G"
+        },
+	"network": {
+		"format-wifi": "<span size='11000' foreground='#81A1C1'>󰤨 </span>{essid}",
+        "format-disconnected": "<span size='11000' foreground='#81A1C1'>󰤭 </span>Disconnected",
+        "on-click": "kitty -e nmtui"
+	},
+
+	"pulseaudio": {
+		"format": "<span size='11000' foreground='#EBCB8B'>{icon}</span>{volume}%",
+		"format-muted": "<span size='11000' foreground='#EBCB8B'></span> Muted",
+		"format-icons": {
+			"default": [" "]
+		}
+	},
+
+
+	"battery": {
+		"states": {
+			"warning": 20,
+			"critical": 10
+			},
+			"format": "<span size='11000' foreground='#A3BE8C'>{icon} </span>{capacity}% {power:0.1f}W",
+			"format-warning": "<span size='11000' foreground='#D08770'>{icon} </span>{capacity}%",
+			"format-critical": "<span size='11000' foreground='#BF616A'>{icon} </span>{capacity}%",
+			"format-icons": [" ", " ", " ,", " ", " "],
+			// "format-icons": [ "󰂎", "󰁻", "󰁽", "󰂀", "󰁹" ],
+			"tooltip-format": "{time}"
+	},
+
+	"clock": {
+		"format": "<span size='11000' foreground='#B48EAD'> </span>{:%a %b %d %I:%M}"
+	},
+
+	"tray": {
+		"spacing": 7
+	}
+
+}

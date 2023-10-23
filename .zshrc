@@ -24,5 +24,7 @@ eval "$(zoxide init zsh)"
 alias ls="exa -a"
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 
+export PATH="${PATH}:${HOME}/.local/bin/"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
