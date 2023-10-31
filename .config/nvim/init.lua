@@ -110,7 +110,7 @@ require('lazy').setup({
   },
 
   -- Useful plugin to show you pending keybinds.
-  { 'folke/which-key.nvim',  opts = {} },
+  { 'folke/which-key.nvim', opts = {} },
   {
     -- Adds git related signs to the gutter, as well as utilities for managing changes
     'lewis6991/gitsigns.nvim',
@@ -135,11 +135,22 @@ require('lazy').setup({
   {
     -- Theme inspired by Atom
     'shaunsingh/nord.nvim',
+    -- priority = 1000,
+    -- config = function()
+    --   vim.cmd.colorscheme 'nord'
+    -- end,
+  },
+
+  { 'rose-pine/neovim',     name = 'rose-pine' },
+  {
+    'AlphaTechnolog/pywal.nvim',
     priority = 1000,
     config = function()
-      vim.cmd.colorscheme 'nord'
-    end,
+      vim.cmd.colorscheme 'pywal'
+    end
   },
+
+
 
   {
     -- Set lualine as statusline
@@ -148,7 +159,7 @@ require('lazy').setup({
     opts = {
       options = {
         icons_enabled = false,
-        theme = 'nord',
+        theme = 'auto',
         component_separators = '|',
         section_separators = '',
       },
@@ -167,7 +178,7 @@ require('lazy').setup({
   },
 
   -- "gc" to comment visual regions/lines
-  { 'numToStr/Comment.nvim', opts = {} },
+  { 'numToStr/Comment.nvim',  opts = {} },
 
   -- Fuzzy Finder (files, lsp, etc)
   {
@@ -254,6 +265,9 @@ vim.o.completeopt = 'menuone,noselect'
 
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
+
+--relative line number
+vim.o.relativenumber = true
 
 -- [[ Basic Keymaps ]]
 
