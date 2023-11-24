@@ -15,7 +15,8 @@ eval "$(zoxide init zsh)"
 #aliases
 alias ls="exa -a"
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
-alias wp="kitty -e ranger ~/Pictures/wallpapers"
+# alias wp="kitty -e ranger ~/Pictures/wallpapers"
+alias wp="kitty -e ~/.config/scripts/master.sh"
 
 export PATH="${PATH}:${HOME}/.local/bin/"
 

@@ -140,15 +140,15 @@ require('lazy').setup({
     --   vim.cmd.colorscheme 'nord'
     -- end,
   },
-
+  { "rebelot/kanagawa.nvim" },
   { 'rose-pine/neovim',     name = 'rose-pine' },
-  {
-    'AlphaTechnolog/pywal.nvim',
-    priority = 1000,
-    config = function()
-      vim.cmd.colorscheme 'pywal'
-    end
-  },
+  -- {
+  --   'AlphaTechnolog/pywal.nvim',
+  --   priority = 1000,
+  --   config = function()
+  --     vim.cmd.colorscheme 'pywal'
+  --   end
+  -- },
 
 
 
@@ -172,7 +172,8 @@ require('lazy').setup({
     -- Enable `lukas-reineke/indent-blankline.nvim`
     -- See `:help indent_blankline.txt`
     opts = {
-      char = '┊',
+      -- char = '┊',
+      char = '│',
       show_trailing_blankline_indent = false,
     },
   },
@@ -228,7 +229,7 @@ require('lazy').setup({
 -- [[ Setting options ]]
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
-
+vim.cmd.colorscheme 'kanagawa'
 -- Set highlight on search
 vim.o.hlsearch = false
 
