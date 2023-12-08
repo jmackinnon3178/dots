@@ -1,0 +1,37 @@
+set relativenumber number
+set surround
+set commentary
+set NERDTree
+
+let mapleader = " "
+
+nmap <leader>df :action ToggleDistractionFreeMode<cr>
+map <c-f> :action GotoFile<cr>
+nmap <leader>t :action ActivateTerminalToolWindow<cr>
+nmap<leader>T :action Terminal.OpenInTerminal<cr>
+nmap <leader>a :action GotoAction<cr>
+nmap <leader>co :action CloseAllEditorsButActive<cr>
+
+
+nnoremap <c-w>v :action SplitVertically<cr>
+nnoremap <c-w>s :action SplitHorizontally<cr>
+nnoremap <c-w>q :action CloseAllEditors<cr>
+sethandler <c-j> a:vim
+sethandler <c-k> a:vim
+nnoremap <c-h> <c-w>h
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+nnoremap <c-l> <c-w>l
+
+nmap <leader>gc :action ActivateCommitToolWindow<cr>
+nmap <leader>gh :action ActivateVersionControlToolWindow<cr>
+
+
+map <c-e> :NERDTree<cr>
+nmap <c-t> :action GoToTab1<cr>
+nmap <c-y> :action GoToTab2<cr>
+nmap <c-n> :action GoToTab3<cr>
+nmap <c-b> :action GoToTab4<cr>
+
+nnoremap <c-d> <c-d>zz<cr>
+nnoremap <c-u> <c-u>zz<cr>
