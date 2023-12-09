@@ -6,7 +6,9 @@ plug "zsh-users/zsh-syntax-highlighting"
 plug "jeffreytse/zsh-vi-mode"
 	
 # Load and initialise completion system
-autoload -Uz compinit
+autoload -Uz +X compinit && compinit
+autoload -Uz +X bashcompinit && bashcompinit
+# autoload -Uz compinit
 compinit
 
 #zoxide
