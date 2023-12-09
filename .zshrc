@@ -6,7 +6,9 @@ plug "zsh-users/zsh-syntax-highlighting"
 plug "jeffreytse/zsh-vi-mode"
 	
 # Load and initialise completion system
-autoload -Uz compinit
+autoload -Uz +X compinit && compinit
+autoload -Uz +X bashcompinit && bashcompinit
+# autoload -Uz compinit
 compinit
 
 #zoxide
@@ -15,8 +17,6 @@ eval "$(zoxide init zsh)"
 #aliases
 alias ls="exa -a"
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
-# alias wp="kitty -e ranger ~/Pictures/wallpapers"
-alias wp="kitty -e ~/.config/scripts/master.sh"
 
 export PATH="${PATH}:${HOME}/.local/bin/"
 
