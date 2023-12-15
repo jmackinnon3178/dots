@@ -9,7 +9,7 @@ window#waybar {
 	/* color: #ECEFF4; */
 	background: @background;
 	color: @foreground;
-	opacity :0.95;
+	/* opacity :0.95; */
 }
 
 #workspaces,
