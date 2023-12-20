@@ -19,7 +19,7 @@ alias ls="exa -a"
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 
 export PATH="${PATH}:${HOME}/.local/bin/"
-
+export PATH=$PATH:/home/josh/.local/share/bob/nvim-bin
 #for pywal
 (cat ~/.cache/wal/sequences &)
 
