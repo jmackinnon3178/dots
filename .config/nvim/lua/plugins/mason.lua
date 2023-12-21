@@ -1,59 +1,90 @@
 return {
-	"williamboman/mason.nvim",
-	dependencies = {
-		"williamboman/mason-lspconfig.nvim",
-		"WhoIsSethDaniel/mason-tool-installer.nvim",
-	},
-	config = function(_, opts)
-		vim.print(opts)
-		-- import mason
-		local mason = require("mason")
+  'williamboman/mason.nvim',
+  dependencies = {
+    'williamboman/mason-lspconfig.nvim',
+    'WhoIsSethDaniel/mason-tool-installer.nvim',
+  },
+  config = function(_, opts)
+    -- vim.print(opts)
+    -- import mason
+    local mason = require 'mason'
 
-		local conf = vim.tbl_deep_extend("keep", opts, {
-			ui = {
-				icons = {
-					package_installed = "✓",
-					package_pending = "➜",
-					package_uninstalled = "✗",
-				},
-			},
-		})
+    local conf = vim.tbl_deep_extend('keep', opts, {
+      ui = {
+        icons = {
+          package_installed = '✓',
+          package_pending = '➜',
+          package_uninstalled = '✗',
+        },
+      },
+      registries = {
+        'github:nvim-java/mason-registry',
+        'github:mason-org/mason-registry',
+      },
+    })
 
-		-- enable mason and configure icons
-		mason.setup(conf)
-		-- import mason-lspconfig
-		require("java").setup()
-		local mason_lspconfig = require("mason-lspconfig")
+    -- enable mason and configure icons
+    mason.setup(conf)
+    -- import mason-lspconfig
+    require('java').setup()
+    local mason_lspconfig = require 'mason-lspconfig'
 
-		local mason_tool_installer = require("mason-tool-installer")
+    local mason_tool_installer = require 'mason-tool-installer'
 
-		mason_lspconfig.setup({
-			-- list of servers for mason to install
-			ensure_installed = {
-				"tsserver",
-				"html",
-				"lua_ls",
-				"clangd",
-				"gopls",
-				"pyright",
-				"rust_analyzer",
-			},
-			handlers = {
-				["jdtls"] = function()
-					require("lspconfig").jdtls.setup({})
-				end,
-			},
-			automatic_installation = true, -- not the same as ensure_installed
-		})
+    mason_lspconfig.setup {
+      ensure_installed = {
+        'tsserver',
+        'html',
+        'lua_ls',
+        'clangd',
+        'gopls',
+        'pyright',
+        'rust_analyzer',
+      },
+      handlers = {
+        ['jdtls'] = function()
+          require('lspconfig').jdtls.setup {}
+        end,
+      },
+      automatic_installation = true,
+    }
 
-		mason_tool_installer.setup({
-			ensure_installed = {
-				"prettier", -- prettier formatter
-				"stylua", -- lua formatter
-				"eslint_d", -- js linter
-			},
-		})
-	end,
+    mason_tool_installer.setup {
+      ensure_installed = {
+        'prettier',
+        'stylua',
+        'eslint_d',
+        'black',
+      },
+    }
+
+    local servers = {
+      clangd = {},
+      gopls = {},
+      pyright = {},
+      rust_analyzer = {},
+      tsserver = {},
+      html = { filetypes = { 'html', 'twig', 'hbs' } },
+
+      lua_ls = {
+        Lua = {
+          workspace = { checkThirdParty = false },
+          telemetry = { enable = false },
+        },
+      },
+    }
+
+    mason_lspconfig.setup_handlers {
+      function(server_name)
+        require('lspconfig')[server_name].setup {
+          capabilities = capabilities,
+          on_attach = on_attach,
+          settings = servers[server_name],
+          filetypes = (servers[server_name] or {}).filetypes,
+        }
+      end,
+    }
+  end,
 }
 -- return {
 -- {

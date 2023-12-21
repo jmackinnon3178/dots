@@ -1,5 +1,5 @@
 return {
-	'folke/neodev.nvim',
-	opts = {},
-	require('neodev').setup({})
+  'folke/neodev.nvim',
+  opts = {},
+  require('neodev').setup {},
 }
