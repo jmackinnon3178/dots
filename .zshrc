@@ -19,9 +19,9 @@ alias ls="exa -a"
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 
 export PATH="${PATH}:${HOME}/.local/bin/"
-export PATH=$PATH:/home/josh/.local/share/bob/nvim-bin
+export PATH=$PATH:/usr/local/go/bin
 #for pywal
-(cat ~/.cache/wal/sequences &)
+# (cat ~/.cache/wal/sequences &)
 
 # starship
 eval "$(starship init zsh)"

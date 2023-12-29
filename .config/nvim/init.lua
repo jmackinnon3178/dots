@@ -19,9 +19,16 @@ require('lazy').setup 'plugins'
 -- [[ Setting options ]]
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
-vim.cmd.colorscheme 'kanagawa'
+vim.cmd.colorscheme 'bamboo'
 -- Set highlight on search
 vim.o.hlsearch = false
+vim.o.cmdheight = 0
+
+-- for tpipeline
+-- vim.g.tpipeline_fillcentre = 1
+-- vim.g.tpipeline_preservebg = 1
+-- vim.g.tpipeline_restore = 1
+-- vim.g.tpipeline_preservefg = 1
 
 -- Make line numbers default
 vim.wo.number = true
