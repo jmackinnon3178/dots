@@ -12,7 +12,7 @@ return {
     -- tag = 'legacy',
 
     -- Additional lua configuration, makes nvim stuff amazing!
-    'folke/neodev.nvim',
+    { 'folke/neodev.nvim', opts = {} },
   },
   config = function()
     local on_attach = function(_, bufnr)

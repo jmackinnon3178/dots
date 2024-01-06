@@ -27,6 +27,7 @@ return {
     mason.setup(conf)
     -- import mason-lspconfig
     require('java').setup()
+    require('neodev').setup {}
     local mason_lspconfig = require 'mason-lspconfig'
 
     local mason_tool_installer = require 'mason-tool-installer'

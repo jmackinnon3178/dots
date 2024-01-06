@@ -1,5 +1,6 @@
-return {
-	'karb94/neoscroll.nvim',
-	opts = {},
-
-}
+return {}
+-- return {
+-- 	'karb94/neoscroll.nvim',
+-- 	opts = {},
+--
+-- }

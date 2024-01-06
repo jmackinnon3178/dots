@@ -1,5 +1,6 @@
 return {
-  { 'mcchrish/zenbones.nvim', lazy = true },
+  { 'mcchrish/zenbones.nvim', dependencies = { 'rktjmp/lush.nvim' }, lazy = true },
+
   { 'EdenEast/nightfox.nvim', lazy = true },
   { 'shaunsingh/nord.nvim', lazy = true },
   { 'rebelot/kanagawa.nvim', lazy = true },
