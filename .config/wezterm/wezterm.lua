@@ -5,7 +5,7 @@ local config = {}
 if wezterm.config_builder then
 	config = wezterm.config_builder()
 end
-config.color_scheme = "nordfox"
+config.color_scheme = 'rose-pine'
 local scheme = wezterm.get_builtin_color_schemes()[config.color_scheme]
 
 config.window_padding = {
