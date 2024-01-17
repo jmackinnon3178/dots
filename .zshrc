@@ -15,8 +15,10 @@ compinit
 eval "$(zoxide init zsh)"
 
 #aliases
-alias ls="exa -a"
+alias ls="eza -a"
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
+alias wp="~/.config/scripts/walfuzzy.sh"
+alias ct="~/.config/scripts/termnvimcol.sh"
 
 export PATH="${PATH}:${HOME}/.local/bin/"
 export PATH=$PATH:/usr/local/go/bin
