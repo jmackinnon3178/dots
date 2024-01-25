@@ -6,4 +6,5 @@ return {
   { 'rebelot/kanagawa.nvim', lazy = true },
   { 'rose-pine/neovim', name = 'rose-pine', lazy = true },
   { 'ribru17/bamboo.nvim', lazy = true },
+  { 'projekt0n/github-nvim-theme', lazy = true },
 }

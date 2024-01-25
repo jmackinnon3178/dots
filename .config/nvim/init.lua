@@ -19,7 +19,7 @@ require('lazy').setup 'plugins'
 -- [[ Setting options ]]
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
-vim.cmd.colorscheme 'rose-pine'
+vim.cmd.colorscheme 'github_dark_default'
 -- Set highlight on search
 vim.o.hlsearch = false
 vim.o.cmdheight = 0
