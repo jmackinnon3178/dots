@@ -19,10 +19,12 @@ alias ls="eza -a"
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 alias wp="~/.config/scripts/walfuzzy.sh"
 alias ct="~/.config/scripts/termnvimcol.sh"
+alias sf="source ~/.config/scripts/fuzzylauncher.sh"
 
 export PATH="${PATH}:${HOME}/.local/bin/"
 export PATH=$PATH:/usr/local/go/bin
 export PATH="$HOME/go/bin:$PATH"
+export FZF_DEFAULT_COMMAND="fd --type f"
 
 #for pywal
 # (cat ~/.cache/wal/sequences &)
