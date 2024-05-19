@@ -5,9 +5,7 @@ local config = {}
 if wezterm.config_builder then
 	config = wezterm.config_builder()
 end
-config.color_scheme = 'rose-pine'
-local scheme = wezterm.get_builtin_color_schemes()[config.color_scheme]
-
+config.color_scheme = "github_dark_default"
 config.window_padding = {
 	left = "0px",
 	right = "0px",
@@ -21,19 +19,19 @@ config.hide_tab_bar_if_only_one_tab = true
 
 config.colors = {
 	tab_bar = {
-		background = scheme.background,
+		background = "#0d1117",
 		active_tab = {
-			bg_color = scheme.background,
-			fg_color = scheme.foreground,
+			bg_color = "#0d1117",
+			fg_color = "#e6edf3",
 			italic = true,
 		},
 		inactive_tab = {
-			bg_color = scheme.background,
-			fg_color = scheme.foreground,
+			bg_color = "#0d1117",
+			fg_color = "#e6edf3",
 		},
 		new_tab = {
-			bg_color = scheme.background,
-			fg_color = scheme.foreground,
+			bg_color = "#0d1117",
+			fg_color = "#e6edf3",
 		},
 	},
 }
@@ -78,6 +76,60 @@ config.keys = {
 			end),
 		}),
 	},
+	{
+        key = ";",
+	mods = "CTRL",
+        action = wezterm.action_callback(function(_, pane)
+            local tab = pane:tab()
+            local panes = tab:panes_with_info()
+            if #panes == 1 then
+                pane:split({
+                    direction = "Bottom",
+                    size = 0.4,
+                })
+            elseif not panes[1].is_zoomed then
+                panes[1].pane:activate()
+                tab:set_zoomed(true)
+            elseif panes[1].is_zoomed then
+                tab:set_zoomed(false)
+                panes[2].pane:activate()
+            end
+        end),
+	},
 }
 
+config.color_schemes = {
+	["github_dark_default"] = {
+		background = "#0d1117",
+		foreground = "#e6edf3",
+
+		cursor_bg = "#e6edf3",
+		cursor_border = "#e6edf3",
+		cursor_fg = "#0d1117",
+
+		selection_bg = "#1e4273",
+		selection_fg = "#e6edf3",
+
+		ansi = {
+			"#484f58",
+			"#ff7b72",
+			"#3fb950",
+			"#d29922",
+			"#58a6ff",
+			"#bc8cff",
+			"#39c5cf",
+			"#b1bac4",
+		},
+		brights = {
+			"#6e7681",
+			"#ffa198",
+			"#56d364",
+			"#e3b341",
+			"#79c0ff",
+			"#d2a8ff",
+			"#56d4dd",
+			"#ffffff",
+		},
+	},
+}
 return config
