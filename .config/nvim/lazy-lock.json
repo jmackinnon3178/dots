@@ -27,6 +27,7 @@
   "nvim-java": { "branch": "main", "commit": "2b7cdc1aacc5972816b337ff5bbc308ff5ef7892" },
   "nvim-java-core": { "branch": "main", "commit": "9053e60ce028c2f10d307049eb253b02159e15f1" },
   "nvim-java-dap": { "branch": "main", "commit": "55c90c5d2414f6e66f843f38e111bee284d71e61" },
+  "nvim-java-refactor": { "branch": "main", "commit": "7b841d53ed0ba55857debd0e32ce069b2c17e745" },
   "nvim-java-test": { "branch": "main", "commit": "a3fe70c48936e1c143ed366e127e9c3db4791716" },
   "nvim-lspconfig": { "branch": "master", "commit": "d70633830acf605ec03d9728698d9e7232442eb4" },
   "nvim-treesitter": { "branch": "master", "commit": "aa02427dfeaead86fae038024ae7b29299f08b8c" },

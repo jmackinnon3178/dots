@@ -87,6 +87,7 @@ return {
         gopls = {},
         pyright = {},
         rust_analyzer = {},
+        jdtls = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:
@@ -119,14 +120,13 @@ return {
       --
       --  You can press `g?` for help in this menu.
       -- require('mason').setup()
-      local mason = require('mason').setup({
+      local mason = require('mason').setup {
         registries = {
           'github:nvim-java/mason-registry',
           'github:mason-org/mason-registry',
         },
-      })
+      }
 
-      require('java').setup()
 
       -- You can add other tools here that you want Mason to install
       -- for you, so that they are available from within Neovim.
@@ -135,6 +135,10 @@ return {
         'stylua', -- Used to format Lua code
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
+
+      if vim.bo.filetype == 'java' then
+        require('java').setup()
+      end
 
       require('mason-lspconfig').setup {
         handlers = {
