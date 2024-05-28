@@ -1,10 +1,10 @@
-local wezterm = require("wezterm")
-
+local w = require("wezterm")
 local config = {}
 
-if wezterm.config_builder then
-	config = wezterm.config_builder()
+if w.config_builder then
+	config = w.config_builder()
 end
+
 config.color_scheme = "github_dark_default"
 config.window_padding = {
 	left = "0px",
@@ -36,38 +36,75 @@ config.colors = {
 	},
 }
 
-wezterm.on("update-right-status", function(window, pane)
+w.on("update-right-status", function(window, pane)
 	window:set_right_status(window:active_workspace())
 end)
+
+local function is_vim(pane)
+  return pane:get_user_vars().IS_NVIM == 'true'
+end
+
+local function is_vim(pane)
+  local process_name = string.gsub(pane:get_foreground_process_name(), '(.*[/\\])(.*)', '%2')
+  return process_name == 'nvim' or process_name == 'vim'
+end
+
+local direction_keys = {
+  h = 'Left',
+  j = 'Down',
+  k = 'Up',
+  l = 'Right',
+}
+
+local function split_nav(resize_or_move, key)
+  return {
+    key = key,
+    mods = resize_or_move == 'resize' and 'META' or 'CTRL',
+    action = w.action_callback(function(win, pane)
+      if is_vim(pane) then
+        -- pass the keys through to vim/nvim
+        win:perform_action({
+          SendKey = { key = key, mods = resize_or_move == 'resize' and 'META' or 'CTRL' },
+        }, pane)
+      else
+        if resize_or_move == 'resize' then
+          win:perform_action({ AdjustPaneSize = { direction_keys[key], 3 } }, pane)
+        else
+          win:perform_action({ ActivatePaneDirection = direction_keys[key] }, pane)
+        end
+      end
+    end),
+  }
+end
 
 config.leader = { key = " ", mods = "CTRL", timeout_milliseconds = 1000 }
 
 config.keys = {
-	{ key = "C", mods = "CTRL|SHIFT", action = wezterm.action.CopyTo("Clipboard") },
-	{ key = "V", mods = "CTRL|SHIFT", action = wezterm.action.PasteFrom("Clipboard") },
-	{ key = "c", mods = "LEADER", action = wezterm.action.SpawnTab("CurrentPaneDomain") },
-	{ key = "/", mods = "LEADER", action = wezterm.action.SplitVertical({ domain = "CurrentPaneDomain" }) },
-	{ key = "'", mods = "LEADER", action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }) },
-	{ key = "x", mods = "LEADER", action = wezterm.action.CloseCurrentPane({ confirm = true }) },
-	{ key = "z", mods = "LEADER", action = wezterm.action.TogglePaneZoomState },
-	{ key = "h", mods = "LEADER", action = wezterm.action.ActivatePaneDirection("Left") },
-	{ key = "j", mods = "LEADER", action = wezterm.action.ActivatePaneDirection("Down") },
-	{ key = "k", mods = "LEADER", action = wezterm.action.ActivatePaneDirection("Up") },
-	{ key = "l", mods = "LEADER", action = wezterm.action.ActivatePaneDirection("Right") },
-	{ key = "w", mods = "LEADER", action = wezterm.action.ShowLauncherArgs({ flags = "FUZZY|WORKSPACES" }) },
+	{ key = "C", mods = "CTRL|SHIFT", action = w.action.CopyTo("Clipboard") },
+	{ key = "V", mods = "CTRL|SHIFT", action = w.action.PasteFrom("Clipboard") },
+	{ key = "c", mods = "LEADER", action = w.action.SpawnTab("CurrentPaneDomain") },
+	{ key = "/", mods = "LEADER", action = w.action.SplitVertical({ domain = "CurrentPaneDomain" }) },
+	{ key = "'", mods = "LEADER", action = w.action.SplitHorizontal({ domain = "CurrentPaneDomain" }) },
+	{ key = "x", mods = "LEADER", action = w.action.CloseCurrentPane({ confirm = true }) },
+	{ key = "z", mods = "LEADER", action = w.action.TogglePaneZoomState },
+	-- { key = "h", mods = "LEADER", action = w.action.ActivatePaneDirection("Left") },
+	-- { key = "j", mods = "LEADER", action = w.action.ActivatePaneDirection("Down") },
+	-- { key = "k", mods = "LEADER", action = w.action.ActivatePaneDirection("Up") },
+	-- { key = "l", mods = "LEADER", action = w.action.ActivatePaneDirection("Right") },
+	{ key = "w", mods = "LEADER", action = w.action.ShowLauncherArgs({ flags = "FUZZY|WORKSPACES" }) },
 	{
 		key = "n",
 		mods = "LEADER",
-		action = wezterm.action.PromptInputLine({
-			description = wezterm.format({
+		action = w.action.PromptInputLine({
+			description = w.format({
 				{ Attribute = { Intensity = "Bold" } },
 				{ Foreground = { AnsiColor = "Fuchsia" } },
 				{ Text = "Enter name for new workspace" },
 			}),
-			action = wezterm.action_callback(function(window, pane, line)
+			action = w.action_callback(function(window, pane, line)
 				if line then
 					window:perform_action(
-						wezterm.action.SwitchToWorkspace({
+						w.action.SwitchToWorkspace({
 							name = line,
 						}),
 						pane
@@ -77,26 +114,35 @@ config.keys = {
 		}),
 	},
 	{
-        key = ";",
-	mods = "CTRL",
-        action = wezterm.action_callback(function(_, pane)
-            local tab = pane:tab()
-            local panes = tab:panes_with_info()
-            if #panes == 1 then
-                pane:split({
-                    direction = "Bottom",
-                    size = 0.4,
-                })
-            elseif not panes[1].is_zoomed then
-                panes[1].pane:activate()
-                tab:set_zoomed(true)
-            elseif panes[1].is_zoomed then
-                tab:set_zoomed(false)
-                panes[2].pane:activate()
-            end
-        end),
+		key = ";",
+		mods = "CTRL",
+		action = w.action_callback(function(_, pane)
+			local tab = pane:tab()
+			local panes = tab:panes_with_info()
+			if #panes == 1 then
+				pane:split({
+					direction = "Bottom",
+					size = 0.4,
+				})
+			elseif not panes[1].is_zoomed then
+				panes[1].pane:activate()
+				tab:set_zoomed(true)
+			elseif panes[1].is_zoomed then
+				tab:set_zoomed(false)
+				panes[2].pane:activate()
+			end
+		end),
 	},
+	split_nav('move', 'h'),
+	split_nav('move', 'j'),
+	split_nav('move', 'k'),
+	split_nav('move', 'l'),
+	split_nav('resize', 'h'),
+	split_nav('resize', 'j'),
+	split_nav('resize', 'k'),
+	split_nav('resize', 'l'),
 }
+
 
 config.color_schemes = {
 	["github_dark_default"] = {
