@@ -1,0 +1,74 @@
+<application>
+  <component name="DimensionService">
+    <location key="find.popup.2880.0.2560.1440" x="4207" y="581" />
+    <size key="GridCell.Tab.0.left.0.0.2880.1800@192dpi" width="2684" height="471" />
+    <size key="GridCell.Tab.0.center.0.0.2880.1800@192dpi" width="2684" height="471" />
+    <size key="GridCell.Tab.0.right.0.0.2880.1800@192dpi" width="2684" height="471" />
+    <size key="GridCell.Tab.0.bottom.0.0.2880.1800@192dpi" width="2684" height="471" />
+    <size key="GridCell.Tab.0.left.2880.0.2560.1440" width="2546" height="418" />
+    <size key="GridCell.Tab.0.center.2880.0.2560.1440" width="2546" height="418" />
+    <size key="GridCell.Tab.0.right.2880.0.2560.1440" width="2546" height="418" />
+    <size key="GridCell.Tab.0.bottom.2880.0.2560.1440" width="2546" height="418" />
+    <size key="GridCell.Tab.0.left.2880.0.2560.1440@120dpi" width="2442" height="403" />
+    <size key="GridCell.Tab.0.center.2880.0.2560.1440@120dpi" width="2442" height="403" />
+    <size key="GridCell.Tab.0.right.2880.0.2560.1440@120dpi" width="2442" height="403" />
+    <size key="GridCell.Tab.0.bottom.2880.0.2560.1440@120dpi" width="2442" height="403" />
+    <size key="find.popup.2880.0.2560.1440" width="664" height="822" />
+    <size key="GridCell.Tab.0.left.0.0.2880.1800@168dpi" width="2848" height="490" />
+    <size key="GridCell.Tab.0.center.0.0.2880.1800@168dpi" width="2848" height="490" />
+    <size key="GridCell.Tab.0.right.0.0.2880.1800@168dpi" width="2848" height="490" />
+    <size key="GridCell.Tab.0.bottom.0.0.2880.1800@168dpi" width="2848" height="490" />
+    <size key="GridCell.Tab.1.left.2880.0.2560.1440" width="2544" height="418" />
+    <size key="GridCell.Tab.1.center.2880.0.2560.1440" width="2544" height="418" />
+    <size key="GridCell.Tab.1.right.2880.0.2560.1440" width="2544" height="418" />
+    <size key="GridCell.Tab.1.bottom.2880.0.2560.1440" width="2544" height="418" />
+  </component>
+  <component name="WindowManager">
+    <frame x="2884" y="4" width="2552" height="1402" />
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="3947" y="508" key="FileChooserDialogImpl" timestamp="1699821268199">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3947" y="508" width="545" height="454" key="FileChooserDialogImpl.ideScale=110" timestamp="1704920423816">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3947" y="508" width="545" height="454" key="FileChooserDialogImpl.ideScale=110/0.0.2880.1800/2880.0.2560.1440" timestamp="1704920423816" />
+    <state x="3877" y="440" width="645" height="544" key="FileChooserDialogImpl.ideScale=125" timestamp="1697674760000">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3877" y="440" width="645" height="544" key="FileChooserDialogImpl.ideScale=125/0.0.2880.1800/2880.0.2560.1440" timestamp="1697674760000" />
+    <state x="3947" y="508" key="FileChooserDialogImpl/0.0.2880.1800/2880.0.2560.1440" timestamp="1699821268199" />
+    <state width="511" height="135" key="ShowUsagesActions.dimensionServiceKey.ideScale=110" timestamp="1701639791801">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state width="511" height="135" key="ShowUsagesActions.dimensionServiceKey.ideScale=110/0.0.2880.1800/2880.0.2560.1440" timestamp="1701639791801" />
+    <state x="2867" y="931" width="2852" height="1710" key="WELCOME_SCREEN" timestamp="1699990083652">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state x="4864" y="360" width="1144" height="712" key="WELCOME_SCREEN.ideScale=110" timestamp="1704920425882">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1506" y="970" width="2852" height="1710" key="WELCOME_SCREEN.ideScale=110/0.0.2880.1800" timestamp="1700795316328" />
+    <state x="4864" y="360" width="1144" height="712" key="WELCOME_SCREEN.ideScale=110/0.0.2880.1800/2880.0.2560.1440" timestamp="1704920425882" />
+    <state x="1440" y="931" width="2852" height="1710" key="WELCOME_SCREEN.ideScale=200" timestamp="1699990090294">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state x="1440" y="931" width="2852" height="1710" key="WELCOME_SCREEN.ideScale=200/0.0.2880.1800" timestamp="1699990090294" />
+    <state x="4976" y="878" width="1138" height="1382" key="WELCOME_SCREEN.ideScale=200/0.0.2880.1800/2880.0.2560.1440" timestamp="1697136701024" />
+    <state x="2867" y="931" width="2852" height="1710" key="WELCOME_SCREEN/0.0.2880.1800" timestamp="1699990083652" />
+    <state x="4160" y="735" width="2546" height="1395" key="WELCOME_SCREEN/0.0.2880.1800/2880.0.2560.1440" timestamp="1699913331957" />
+    <state x="3427" y="596" width="2003" height="262" key="ide.config.custom.settings.ideScale=200" timestamp="1697136717779">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3427" y="596" width="2003" height="262" key="ide.config.custom.settings.ideScale=200/0.0.2880.1800/2880.0.2560.1440" timestamp="1697136717779" />
+    <state x="3760" y="432" width="800" height="620" key="new project wizard.ideScale=125" timestamp="1697678928114">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3760" y="432" width="800" height="620" key="new project wizard.ideScale=125/0.0.2880.1800/2880.0.2560.1440" timestamp="1697678928114" />
+    <state x="876" y="462" width="800" height="1020" key="new project wizard.ideScale=200" timestamp="1700576101257">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state x="876" y="462" width="800" height="1020" key="new project wizard.ideScale=200/0.0.2880.1800" timestamp="1700576101257" />
+  </component>
+</application>

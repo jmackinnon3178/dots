@@ -1,0 +1,552 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="CS2910-23-Project" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/test/java/upei/project/BoardTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="CLASS">
+      <summary usageCount="1" lastUsed="1701134504400" />
+    </fileType>
+    <fileType name="DIFF">
+      <summary usageCount="1" lastUsed="1700523233934" />
+    </fileType>
+    <fileType name="JAVA">
+      <summary usageCount="334" lastUsed="1704759025476" />
+    </fileType>
+    <fileType name="Markdown">
+      <summary usageCount="5" lastUsed="1701718854676" />
+    </fileType>
+    <fileType name="PLAIN_TEXT">
+      <summary usageCount="2" lastUsed="1699913054049" />
+    </fileType>
+    <fileType name="WebPreview">
+      <summary usageCount="3" lastUsed="1704758997130" />
+    </fileType>
+    <fileType name="textmate">
+      <summary usageCount="6" lastUsed="1701137597928" />
+    </fileType>
+  </component>
+  <component name="GitBranchesPopupTreeState">
+    <expand>
+      <path>
+        <item name="TreeRoot" type="41d8a9c2:GitBranchesTreeModel$TreeRoot" />
+        <item name="RECENT" type="baf65d7a:GitBranchesTreeModel$RecentNode" />
+      </path>
+      <path>
+        <item name="TreeRoot" type="41d8a9c2:GitBranchesTreeModel$TreeRoot" />
+        <item name="LOCAL" type="ae103dac:GitBranchType" />
+      </path>
+      <path>
+        <item name="TreeRoot" type="41d8a9c2:GitBranchesTreeModel$TreeRoot" />
+        <item name="REMOTE" type="ae103dac:GitBranchType" />
+      </path>
+      <path>
+        <item name="TreeRoot" type="41d8a9c2:GitBranchesTreeModel$TreeRoot" />
+        <item name="REMOTE" type="ae103dac:GitBranchType" />
+        <item name="REMOTE/[origin]" type="f52d67ed:GitBranchesTreeModel$BranchesPrefixGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/monopolytiles.csv" />
+      <option value="$PROJECT_DIR$/src/test/java/upei/project/TIleTest.java" />
+      <option value="$PROJECT_DIR$/src/test/java/upei/project/TileTest.java" />
+      <option value="$PROJECT_DIR$/src/main/java/upei/project/Tile.java" />
+      <option value="$PROJECT_DIR$/src/main/java/upei/project/Utility.java" />
+      <option value="$PROJECT_DIR$/src/main/java/upei/project/Colored.java" />
+      <option value="$PROJECT_DIR$/src/main/java/upei/project/CardTest.java" />
+      <option value="$PROJECT_DIR$/src/main/java/upei/project/MoneyCard.java" />
+      <option value="$PROJECT_DIR$/src/main/java/upei/project/MoverCard.java" />
+      <option value="$PROJECT_DIR$/src/main/java/upei/project/Card.java" />
+      <option value="$USER_HOME$/.ideavimrc" />
+      <option value="$PROJECT_DIR$/src/main/java/upei/project/GameSimulation.java" />
+      <option value="$PROJECT_DIR$/src/main/java/upei/project/Action.java" />
+      <option value="$PROJECT_DIR$/src/main/java/upei/project/Property.java" />
+      <option value="$PROJECT_DIR$/src/main/java/upei/project/Railroad.java" />
+      <option value="$PROJECT_DIR$/src/main/java/upei/project/Main.java" />
+      <option value="$PROJECT_DIR$/src/test/java/upei/project/MainTest.java" />
+      <option value="$PROJECT_DIR$/src/main/java/upei/project/ActionHandler.java" />
+      <option value="$PROJECT_DIR$/src/main/java/upei/project/PropertyHandler.java" />
+      <option value="$PROJECT_DIR$/src/main/java/upei/project/Board.java" />
+      <option value="$PROJECT_DIR$/src/main/java/upei/project/Player.java" />
+      <option value="$PROJECT_DIR$/src/test/java/upei/project/ActionHandlerTest.java" />
+      <option value="$PROJECT_DIR$/src/test/java/upei/project/PropertyHandlerTest.java" />
+      <option value="$PROJECT_DIR$/src/main/java/upei/project/SimulationExperiment.java" />
+      <option value="$PROJECT_DIR$/src/test/java/upei/project/CardTest.java" />
+      <option value="$PROJECT_DIR$/INTEGRITY.md" />
+      <option value="$PROJECT_DIR$/REPORT.md" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="334" lastUsage="1704759025477" />
+    </language>
+    <language id="Markdown">
+      <summary usageCount="5" lastUsage="1701718854676" />
+    </language>
+    <language id="TEXT">
+      <summary usageCount="2" lastUsage="1699913054050" />
+    </language>
+    <language id="textmate">
+      <summary usageCount="6" lastUsage="1701137597928" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1" />
+    <panes />
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Gradle.Tests in 'CS2910-23-Project.test'" />
+      <element setting="Gradle.PropertyHandlerTest.testbuypropalreadyowned" />
+      <element setting="Gradle.PropertyHandlerTest.testbuyprop" />
+      <element setting="Gradle.TileTest" />
+      <element setting="Gradle.ActionHandlerTest" />
+      <element setting="Gradle.PropertyHandlerTest" />
+      <element setting="Gradle.PropertyHandlerTest.testdorentutil" />
+      <element setting="Gradle.PropertyHandlerTest.testdorentrr" />
+      <element setting="Gradle.PropertyHandlerTest.testdorentcol" />
+      <element setting="Gradle.PropertyHandlerTest.testfindowner" />
+    </history>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$">
+        <shellCommand>
+          <arg value="/usr/bin/zsh" />
+          <arg value="-i" />
+        </shellCommand>
+      </TerminalTabState>
+    </option>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PropertyHandlerTest_(1) - 2023.12.04 at 00h 09m 15s.xml">
+      <configuration name="PropertyHandlerTest (1)" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ActionHandlerTest_(1) - 2023.12.04 at 00h 09m 20s.xml">
+      <configuration name="ActionHandlerTest (1)" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ActionHandlerTest_(1) - 2023.12.04 at 00h 10m 58s.xml">
+      <configuration name="ActionHandlerTest (1)" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="PropertyHandlerTest_(1) - 2023.12.04 at 00h 11m 03s.xml">
+      <configuration name="PropertyHandlerTest (1)" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="PropertyHandlerTest_(1) - 2023.12.04 at 00h 25m 07s.xml">
+      <configuration name="PropertyHandlerTest (1)" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="PropertyHandlerTest_(1) - 2023.12.04 at 00h 26m 18s.xml">
+      <configuration name="PropertyHandlerTest (1)" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ActionHandlerTest_(1) - 2023.12.04 at 00h 26m 25s.xml">
+      <configuration name="ActionHandlerTest (1)" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="Tests_in_'CS2910-23-Project_test' - 2023.12.04 at 16h 42m 08s.xml">
+      <configuration name="Tests in 'CS2910-23-Project.test'" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="Tests_in_'CS2910-23-Project_test' - 2023.12.04 at 16h 44m 33s.xml">
+      <configuration name="Tests in 'CS2910-23-Project.test'" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="Tests_in_'CS2910-23-Project_test' - 2023.12.04 at 16h 45m 39s.xml">
+      <configuration name="Tests in 'CS2910-23-Project.test'" configurationId="GradleRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info id="Space Code Reviews" />
+      <window_info id="Bookmarks" side_tool="true" />
+      <window_info id="Merge Requests" />
+      <window_info id="Pull Requests" />
+      <window_info id="Learn" show_stripe_button="false" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.44677925" />
+      <window_info id="Commit" order="1" weight="0.44677925" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Find" show_stripe_button="false" weight="0.3301075" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3301075" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.3301075" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3301075" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.3301075" />
+      <window_info anchor="bottom" id="Run" order="6" show_stripe_button="false" weight="0.3301075" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3301075" />
+      <window_info anchor="bottom" id="Debug" order="8" show_stripe_button="false" weight="0.3301075" />
+      <window_info anchor="right" id="documentation.v2" side_tool="true" />
+      <window_info anchor="right" id="Meet New UI" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.3301257" />
+      <window_info anchor="right" id="Key Promoter X" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.25" />
+      <unified_weights bottom="0.3301075" left="0.44677925" right="0.3301257" />
+    </layoutV2>
+    <recentWindows>
+      <value>Project</value>
+      <value>Run</value>
+      <value>Commit</value>
+      <value>Gradle</value>
+      <value>Find</value>
+      <value>Build</value>
+      <value>Debug</value>
+      <value>Problems View</value>
+      <value>Version Control</value>
+      <value>Messages</value>
+      <value>Terminal</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3755" y="379" width="800" height="682" key="#Plugins.ideScale=110" timestamp="1700782620893">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3755" y="379" width="800" height="682" key="#Plugins.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1700782620893" />
+    <state x="3922" y="614" width="505" height="242" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.ideScale=110" timestamp="1701722469677">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3922" y="614" width="505" height="242" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1701722469677" />
+    <state x="4619" y="503" key="FileChooserDialogImpl.ideScale=110" timestamp="1701664636290">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="4619" y="503" key="FileChooserDialogImpl.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1701664636290" />
+    <state x="1399" y="1011" key="FileChooserDialogImpl.ideScale=175" timestamp="1700686299020">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state x="1399" y="1011" key="FileChooserDialogImpl.ideScale=175/0.0.2880.1800@0.0.2880.1800" timestamp="1700686299020" />
+    <state width="2546" height="418" key="GridCell.Tab.0.bottom.ideScale=110" timestamp="1701722751444">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2546" height="418" key="GridCell.Tab.0.bottom.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1701722751444" />
+    <state width="2848" height="490" key="GridCell.Tab.0.bottom.ideScale=175" timestamp="1700686448897">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state width="2848" height="490" key="GridCell.Tab.0.bottom.ideScale=175/0.0.2880.1800@0.0.2880.1800" timestamp="1700686448897" />
+    <state width="2546" height="418" key="GridCell.Tab.0.center.ideScale=110" timestamp="1701722751444">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2546" height="418" key="GridCell.Tab.0.center.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1701722751444" />
+    <state width="2848" height="490" key="GridCell.Tab.0.center.ideScale=175" timestamp="1700686448897">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state width="2848" height="490" key="GridCell.Tab.0.center.ideScale=175/0.0.2880.1800@0.0.2880.1800" timestamp="1700686448897" />
+    <state width="2546" height="418" key="GridCell.Tab.0.left.ideScale=110" timestamp="1701722751444">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2546" height="418" key="GridCell.Tab.0.left.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1701722751444" />
+    <state width="2848" height="490" key="GridCell.Tab.0.left.ideScale=175" timestamp="1700686448897">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state width="2848" height="490" key="GridCell.Tab.0.left.ideScale=175/0.0.2880.1800@0.0.2880.1800" timestamp="1700686448897" />
+    <state width="2546" height="418" key="GridCell.Tab.0.right.ideScale=110" timestamp="1701722751444">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2546" height="418" key="GridCell.Tab.0.right.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1701722751444" />
+    <state width="2848" height="490" key="GridCell.Tab.0.right.ideScale=175" timestamp="1700686448897">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state width="2848" height="490" key="GridCell.Tab.0.right.ideScale=175/0.0.2880.1800@0.0.2880.1800" timestamp="1700686448897" />
+    <state width="2544" height="418" key="GridCell.Tab.1.bottom.ideScale=110" timestamp="1701636173485">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2544" height="418" key="GridCell.Tab.1.bottom.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1701636173485" />
+    <state width="2544" height="418" key="GridCell.Tab.1.center.ideScale=110" timestamp="1701636173485">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2544" height="418" key="GridCell.Tab.1.center.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1701636173485" />
+    <state width="2544" height="418" key="GridCell.Tab.1.left.ideScale=110" timestamp="1701636173485">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2544" height="418" key="GridCell.Tab.1.left.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1701636173485" />
+    <state width="2544" height="418" key="GridCell.Tab.1.right.ideScale=110" timestamp="1701636173485">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2544" height="418" key="GridCell.Tab.1.right.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1701636173485" />
+    <state x="348" y="274" key="MergeDialog.ideScale=175" timestamp="1700685458747">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state x="348" y="274" key="MergeDialog.ideScale=175/0.0.2880.1800@0.0.2880.1800" timestamp="1700685458747" />
+    <state x="0" y="0" width="2560" height="1440" key="SettingsEditor.ideScale=110" timestamp="1701137064769">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="0" y="0" width="2560" height="1440" key="SettingsEditor.ideScale=110/0.0.2560.1440@0.0.2560.1440" timestamp="1701137064769" />
+    <state x="3435" y="273" width="900" height="700" key="SettingsEditor.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1701118444873" />
+    <state width="502" height="541" key="SwitcherDM.ideScale=110" timestamp="1704759025213">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state width="502" height="541" key="SwitcherDM.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1704759025213" />
+    <state x="3760" y="486" width="800" height="498" key="Vcs.Push.Dialog.v2" timestamp="1699913093385">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3760" y="486" width="760" height="378" key="Vcs.Push.Dialog.v2.ideScale=110" timestamp="1701722588649">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3760" y="486" width="760" height="378" key="Vcs.Push.Dialog.v2.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1701722588649" />
+    <state x="1184" y="828" width="918" height="623" key="Vcs.Push.Dialog.v2.ideScale=175" timestamp="1700684743221">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state x="1184" y="828" width="918" height="623" key="Vcs.Push.Dialog.v2.ideScale=175/0.0.2880.1800@0.0.2880.1800" timestamp="1700684743221" />
+    <state x="3760" y="486" width="800" height="498" key="Vcs.Push.Dialog.v2/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1699913093385" />
+    <state x="3949" y="524" key="chooseDestDirectoryDialog.ideScale=110" timestamp="1701722469647">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3949" y="524" key="chooseDestDirectoryDialog.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1701722469647" />
+    <state x="3893" y="443" width="514" height="524" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser.ideScale=110" timestamp="1701716637616">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3893" y="443" width="514" height="524" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1701716637616" />
+    <state x="3942" y="653" width="426" height="134" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2.ideScale=110" timestamp="1701722378529">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3942" y="653" width="426" height="134" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1701722378529" />
+    <state x="2154" y="1179" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2.ideScale=175" timestamp="1700685559908">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state x="2154" y="1179" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2.ideScale=175/0.0.2880.1800@0.0.2880.1800" timestamp="1700685559908" />
+    <state x="3896" y="468" key="git4idea.branch.GitSmartOperationDialog.ideScale=110" timestamp="1701634635919">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3896" y="468" key="git4idea.branch.GitSmartOperationDialog.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1701634635919" />
+    <state x="3824" y="347" key="run.anything.popup.ideScale=110" timestamp="1700078720433">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3824" y="347" key="run.anything.popup.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1700078720433" />
+    <state x="3743" y="348" width="724" height="171" key="search.everywhere.popup.ideScale=110" timestamp="1704759049854">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="890" y="563" width="672" height="171" key="search.everywhere.popup.ideScale=110/0.0.2560.1440@0.0.2560.1440" timestamp="1701134519092" />
+    <state x="3743" y="348" width="724" height="171" key="search.everywhere.popup.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1704759049854" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/monopolytiles.csv" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/upei/project/CardTest.java" />
+    <entry file="jrt:///usr/lib/jvm/java-17!/java.desktop/javax/swing/BoundedRangeModel.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.ideavimrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/upei/project/TileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3100">
+          <caret line="104" column="75" selection-start-line="104" selection-start-column="75" selection-end-line="104" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/upei/project/PropertyHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7254">
+          <caret line="222" column="5" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/upei/project/PropertyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="167" column="22" selection-start-line="167" selection-start-column="22" selection-end-line="167" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/upei/project/ActionHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3689">
+          <caret line="117" column="83" selection-start-line="117" selection-start-column="83" selection-end-line="117" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/upei/project/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/upei/project/CardTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/upei/project/MainTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/upei/project/Utility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1271">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/upei/project/Tile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/upei/project/Railroad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/upei/project/Property.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1085">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/upei/project/MoverCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/upei/project/MoneyCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/upei/project/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/upei/project/ActionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="304" column="21" selection-start-line="304" selection-start-column="21" selection-end-line="304" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/upei/project/Colored.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2139">
+          <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/upei/project/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTEGRITY.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SHOW_EDITOR_AND_PREVIEW" is_vertical_split="false">
+          <first_editor relative-caret-position="465">
+            <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/upei/project/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5921">
+          <caret line="197" column="5" selection-start-line="197" selection-start-column="5" selection-end-line="197" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/REPORT.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SHOW_EDITOR_AND_PREVIEW" is_vertical_split="false">
+          <first_editor relative-caret-position="192">
+            <caret line="34" column="122" selection-start-line="34" selection-start-column="122" selection-end-line="34" selection-end-column="122" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/upei/project/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/upei/project/SimulationExperiment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="64" column="54" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/upei/project/BoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI" />
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI" />
+      <state key="ProjectLibrariesConfigurable.UI" />
+    </states>
+  </component>
+</project>

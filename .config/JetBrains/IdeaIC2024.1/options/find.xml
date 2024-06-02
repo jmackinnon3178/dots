@@ -1,0 +1,13 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="Project 'CS2910-23-Project'" />
+    <option name="defaultScopeName" value="Project 'CS2910-23-Project'" />
+    <option name="SEARCH_SCOPE" value="Project 'CS2910-23-Project'" />
+    <mask>*.css</mask>
+    <mask>*.html</mask>
+    <mask>*.xml</mask>
+    <mask>*.jsp</mask>
+    <mask>*.properties</mask>
+    <mask>*.java</mask>
+  </component>
+</application>

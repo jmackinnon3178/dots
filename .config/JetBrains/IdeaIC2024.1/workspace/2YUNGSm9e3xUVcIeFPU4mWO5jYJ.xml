@@ -1,0 +1,274 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="Shelf" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/Example.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BookShelve.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BlahB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="49" selection-start-column="49" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="JAVA">
+      <summary usageCount="55" lastUsed="1701117875044" />
+    </fileType>
+    <fileType name="textmate">
+      <summary usageCount="13" lastUsed="1700792904753" />
+    </fileType>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/BookShelve.java" />
+      <option value="$PROJECT_DIR$/src/Example.java" />
+      <option value="$PROJECT_DIR$/src/BlahB.java" />
+      <option value="$PROJECT_DIR$/src/Floo.java" />
+      <option value="$USER_HOME$/.ideavimrc" />
+      <option value="$PROJECT_DIR$/src/Voo.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="55" lastUsage="1701117875044" />
+    </language>
+    <language id="textmate">
+      <summary usageCount="13" lastUsage="1700792904753" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Shelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/josh/school/cs/cs2910/Shelf}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/josh/school/cs/cs2910/Shelf}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/josh/school/cs/cs2910/Shelf/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local">
+        <shellCommand>
+          <arg value="/usr/bin/zsh" />
+          <arg value="-i" />
+        </shellCommand>
+      </TerminalTabState>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3301192" />
+      <window_info id="Commit" order="1" weight="0.3301257" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.3301257" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3301075" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.33011696" />
+      <window_info anchor="bottom" id="Services" order="4" weight="0.3301075" />
+      <window_info anchor="right" id="Notifications" order="0" weight="0.3301257" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Key Promoter X" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.25" />
+      <unified_weights bottom="0.33011696" left="0.3301192" right="0.3301257" />
+    </layoutV2>
+    <recentWindows>
+      <value>Terminal</value>
+      <value>Project</value>
+      <value>Notifications</value>
+      <value>Commit</value>
+      <value>Version Control</value>
+      <value>Services</value>
+      <value>Structure</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="568" y="128" key="#Project_Structure.ideScale=200" timestamp="1700576129469">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state x="568" y="128" key="#Project_Structure.ideScale=200/0.0.2880.1800@0.0.2880.1800" timestamp="1700576129469" />
+    <state x="3948" y="508" key="FileChooserDialogImpl.ideScale=110" timestamp="1700794616066">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3948" y="508" key="FileChooserDialogImpl.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1700794616066" />
+    <state x="630" y="692" width="774" height="816" key="FileChooserDialogImpl.ideScale=175" timestamp="1700884039464">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state x="630" y="692" width="774" height="816" key="FileChooserDialogImpl.ideScale=175/0.0.2880.1800@0.0.2880.1800" timestamp="1700884039464" />
+    <state x="3748" y="484" key="IDE.errors.dialog.ideScale=110" timestamp="1700791569163">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3748" y="484" key="IDE.errors.dialog.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1700791569163" />
+    <state x="3776" y="310" width="987" height="700" key="SettingsEditor.ideScale=110" timestamp="1700794823810">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3776" y="310" width="987" height="700" key="SettingsEditor.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1700794823810" />
+    <state x="892" y="346" key="SettingsEditor.ideScale=175" timestamp="1700884474636">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state x="892" y="346" key="SettingsEditor.ideScale=175/0.0.2880.1800@0.0.2880.1800" timestamp="1700884474636" />
+    <state width="498" height="362" key="SwitcherDM.ideScale=110" timestamp="1700792904726">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state width="498" height="362" key="SwitcherDM.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1700792904726" />
+    <state x="3860" y="374" width="672" height="559" key="search.everywhere.popup" timestamp="1700882496527">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3823" y="350" width="672" height="171" key="search.everywhere.popup.ideScale=110" timestamp="1701117911565">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3823" y="350" width="672" height="171" key="search.everywhere.popup.ideScale=110/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1701117911565" />
+    <state x="1061" y="438" width="672" height="171" key="search.everywhere.popup.ideScale=110/0.0.2880.1800@0.0.2880.1800" timestamp="1700882168338" />
+    <state x="3860" y="374" width="840" height="559" key="search.everywhere.popup.ideScale=125" timestamp="1700883010239">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3860" y="374" width="840" height="559" key="search.everywhere.popup.ideScale=125/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1700883010239" />
+    <state x="3860" y="374" width="1009" height="208" key="search.everywhere.popup.ideScale=150" timestamp="1700882535753">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3860" y="374" width="1009" height="208" key="search.everywhere.popup.ideScale=150/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1700882535753" />
+    <state x="3635" y="0" width="1177" height="226" key="search.everywhere.popup.ideScale=175" timestamp="1701117892391">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3635" y="0" width="1177" height="226" key="search.everywhere.popup.ideScale=175/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1701117892391" />
+    <state x="849" y="0" width="1177" height="226" key="search.everywhere.popup.ideScale=175/0.0.2880.1800@0.0.2880.1800" timestamp="1700884072117" />
+    <state x="3561" y="0" width="1344" height="2092" key="search.everywhere.popup.ideScale=200" timestamp="1700883022734">
+      <screen x="2880" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3561" y="0" width="1344" height="2092" key="search.everywhere.popup.ideScale=200/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1700883022734" />
+    <state x="766" y="0" width="1344" height="2615" key="search.everywhere.popup.ideScale=200/0.0.2880.1800@0.0.2880.1800" timestamp="1700882134982" />
+    <state x="3860" y="374" width="672" height="559" key="search.everywhere.popup/0.0.2880.1800/2880.0.2560.1440@2880.0.2560.1440" timestamp="1700882496527" />
+    <state x="1103" y="467" width="672" height="698" key="search.everywhere.popup/0.0.2880.1800@0.0.2880.1800" timestamp="1700882178420" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Voo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Floo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.ideavimrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="899">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BookShelve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BlahB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="49" selection-start-column="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI" />
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Shelf</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI" />
+    </states>
+  </component>
+</project>

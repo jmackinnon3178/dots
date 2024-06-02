@@ -1,0 +1,21 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+      <component name="WindowStateProjectService">
+        <state x="902" y="50" key="SettingsEditor" timestamp="1697136730697">
+          <screen x="0" y="0" width="2880" height="1800" />
+        </state>
+        <state x="944" y="535" key="SettingsEditor.ideScale=200" timestamp="1694040576935">
+          <screen x="0" y="0" width="2880" height="1800" />
+        </state>
+        <state x="944" y="535" key="SettingsEditor.ideScale=200/0.0.2880.1800" timestamp="1694040576935" />
+        <state x="902" y="50" key="SettingsEditor/0.0.2880.1800/2880.0.2560.1440" timestamp="1697136730697" />
+      </component>
+    </defaultProject>
+  </component>
+</application>

@@ -1,0 +1,119 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="Nulltest" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="JAVA">
+      <summary usageCount="2" lastUsed="1697591038340" />
+    </fileType>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/Main.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="2" lastUsage="1697591038347" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Nulltest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/josh/school/cs/cs2910/Nulltest}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nulltest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/josh/school/cs/cs2910/Nulltest}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/josh/school/cs/cs2910/Nulltest/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3301192" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.32986936" />
+      <window_info anchor="bottom" id="Services" order="5" />
+      <window_info anchor="bottom" id="Build" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Key Promoter X" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.25" />
+      <unified_weights bottom="0.32986936" left="0.3301192" />
+    </layoutV2>
+    <recentWindows>
+      <value>Run</value>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2684" height="471" key="GridCell.Tab.0.bottom.ideScale=200" timestamp="1697338068982">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state width="2684" height="471" key="GridCell.Tab.0.bottom.ideScale=200/0.0.2880.1800@0.0.2880.1800" timestamp="1697338068982" />
+    <state width="2684" height="471" key="GridCell.Tab.0.center.ideScale=200" timestamp="1697338068982">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state width="2684" height="471" key="GridCell.Tab.0.center.ideScale=200/0.0.2880.1800@0.0.2880.1800" timestamp="1697338068982" />
+    <state width="2684" height="471" key="GridCell.Tab.0.left.ideScale=200" timestamp="1697338068982">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state width="2684" height="471" key="GridCell.Tab.0.left.ideScale=200/0.0.2880.1800@0.0.2880.1800" timestamp="1697338068982" />
+    <state width="2684" height="471" key="GridCell.Tab.0.right.ideScale=200" timestamp="1697338068982">
+      <screen x="0" y="0" width="2880" height="1800" />
+    </state>
+    <state width="2684" height="471" key="GridCell.Tab.0.right.ideScale=200/0.0.2880.1800@0.0.2880.1800" timestamp="1697338068982" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
