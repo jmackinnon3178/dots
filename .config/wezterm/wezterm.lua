@@ -56,6 +56,8 @@ local direction_keys = {
   l = 'Right',
 }
 
+config.enable_wayland = false
+
 local function split_nav(resize_or_move, key)
   return {
     key = key,
